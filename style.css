@@ -1,89 +1,136 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #111;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  header {
-    background-color: #222;
-    padding: 10px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: 20px;
-  }
-  
-  .search-bar {
-    display: flex;
-    align-items: center;
-  }
-  
-  input[type="text"] {
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .search-btn {
-    margin-left: 10px;
-  }
-  
-  .main-container {
-    display: flex;
-  }
-  
-  .sidebar {
-    flex-basis: 25%;
-    background-color: #333;
-    padding: 20px;
-    order: 2;
-  }
-  
-  .video-container {
-    flex-basis: 75%;
-    padding: 20px;
-    order: 1;
-  }
-  
-  .video-player {
-    /* Add styling for video player here */
-  }
-  
-  .video-info {
-    margin-top: 20px;
-  }
-  
-  .buttons button {
-    margin-right: 10px;
-  }
-  
-  .recommended-video {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .recommended-video iframe {
-    margin-right: 20px;
-  }
-  
-  .recommended-video .video-info {
-    flex-grow: 1;
-  }
-  
-  .recommended-video .video-info h4 {
-    margin: 0;
-    font-size: 18px;
-  }
-  
-  .recommended-video .video-info p {
-    margin: 0;
-    color: #bbb;
-    font-size: 14px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.search-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-bar input{
+  border-radius: 30px;
+  background-color: #222;
+  color: #fff;
+  display: block;
+  width: 20vw;
+}
+
+input[type="text"] {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 8px;
+}
+
+.search-btn {
+  margin-left: 10px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 25%;
+  background-color: #333;
+  padding: 20px;
+  order: 2;
+}
+
+.video-container {
+  flex-basis: 75%;
+  padding: 20px;
+  order: 1;
+}
+
+.video-player {
+  /* Add styling for video player here */
+}
+
+.video-info {
+  margin-top: 20px;
+}
+.video-info h3{
+  font-weight: bold;
+}
+
+.action{
+  display: flex;
+  margin-top: -1.5vw;
+}
+
+.action p{
+  font-size: 18px;
+}
+
+.channel-name{
+  margin-right: 20px;
+}
+
+.buttons{
+  margin-left: 5vw;
+  /* margin-top: 1.4vw; */
+}
+
+.buttons button {
+  margin-right: 10px;
+  border-radius: 30px;
+  background-color: #222;
+  color: #fff;
+  padding: 5px 15px;
+  opacity: 0.75;
+  border-style: double;
+}
+
+.recommended-video {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar h2{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.recommended-video iframe {
+  margin-right: 20px;
+}
+
+.recommended-video .video-info {
+  flex-grow: 1;
+}
+
+.recommended-video .video-info h4 {
+  margin: 0;
+  margin-top: -1vw;
+  font-size: 15px;
+}
+
+.recommended-video .video-info p {
+  margin: 0;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.recommended-video h4{
+  font-weight: 400;
+  font-size: 18px;
+}
