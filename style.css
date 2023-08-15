@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    background-color: #222;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .search-btn {
+    margin-left: 10px;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex-basis: 25%;
+    background-color: #333;
+    padding: 20px;
+    order: 2;
+  }
+  
+  .video-container {
+    flex-basis: 75%;
+    padding: 20px;
+    order: 1;
+  }
+  
+  .video-player {
+    /* Add styling for video player here */
+  }
+  
+  .video-info {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  
+  .recommended-video {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .recommended-video iframe {
+    margin-right: 20px;
+  }
+  
+  .recommended-video .video-info {
+    flex-grow: 1;
+  }
+  
+  .recommended-video .video-info h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .recommended-video .video-info p {
+    margin: 0;
+    color: #bbb;
+    font-size: 14px;
+  }
+  
